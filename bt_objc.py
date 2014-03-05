@@ -4,9 +4,9 @@
 Author: 
 	Proteas
 Date:
-    2014-03-05
+	2014-03-05
 Purpose:
-    set breakpoint without symbols, for examle: stripped macho
+	set breakpoint without symbols, for examle: stripped macho
 Usage:
 	add this to ~/.lldbinit, or
 	command script import ~/.lldb/bt_objc.py
