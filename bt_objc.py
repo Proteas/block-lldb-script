@@ -8,7 +8,7 @@ Date:
 Purpose:
 	set breakpoint without symbols, for examle: stripped macho
 Usage:
-	add this to ~/.lldbinit, or
+	add the following line to ~/.lldbinit
 	command script import ~/.lldb/bt_objc.py
 '''
 
