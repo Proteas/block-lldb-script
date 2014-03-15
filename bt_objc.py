@@ -74,7 +74,7 @@ def get_selected_frame():
 
 def get_class_method_address(class_name, method_name):
 	frame = get_selected_frame();
-	class_addr = frame.EvaluateExpression("(Class)object_getClass((Class)NSClassFromString(@\"%s\"))" % "FigPluginView").GetValueAsUnsigned()
+	class_addr = frame.EvaluateExpression("(Class)object_getClass((Class)NSClassFromString(@\"%s\"))" % class_name).GetValueAsUnsigned()
 	if class_addr == 0:
 		return 0
 
