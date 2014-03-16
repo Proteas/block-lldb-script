@@ -19,8 +19,8 @@ import optparse
 import re
 
 def __lldb_init_module (debugger, dict):
-	debugger.HandleCommand('command script add -f bt_objc.bt_objc bt_objc')
-	print 'The "bt_objc" command has been installed'
+	debugger.HandleCommand('command script add -f bk_objc.bt_objc bk_objc')
+	print 'The "bk_objc" command has been installed'
 
 def create_command_arguments(command):
 	return shlex.split(command)
